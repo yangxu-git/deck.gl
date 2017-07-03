@@ -7,7 +7,7 @@ import DeckGLOverlay from './deckgl-overlay.js';
 import {csv as requestCsv} from 'd3-request';
 
 // Set your mapbox token here
-const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
+const MAPBOX_TOKEN = 'pk.eyJ1IjoieXh1LW1hcGJveCIsImEiOiJjajRtazQ0cDUxM3dmMzJxc214ejB3ZXliIn0.Ei5okjs-KxBULfUHg0w8kg'; // eslint-disable-line
 
 class Root extends Component {
 
@@ -16,7 +16,7 @@ class Root extends Component {
     this.state = {
       viewport: {
         ...DeckGLOverlay.defaultViewport,
-        width: 500,
+        width: 100,
         height: 500
       },
       data: null

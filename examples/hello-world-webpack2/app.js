@@ -5,7 +5,7 @@ import MapGL from 'react-map-gl';
 import DeckGL, {LineLayer} from 'deck.gl';
 
 // Set your mapbox token here
-const MAPBOX_TOKEN = process.env.MapboxAccessToken; // eslint-disable-line
+const MAPBOX_TOKEN = 'pk.eyJ1IjoieXh1LW1hcGJveCIsImEiOiI0NWQxZmVmZTYzZDYwNjJkN2EwODc0NWRiZmU0NjdlNSJ9.F8YB440EBgZJPPoyXkYZng'; // eslint-disable-line
 
 class Root extends Component {
 
